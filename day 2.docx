@@ -1,0 +1,82 @@
+SE DAY 2 ASSIGNMENT
+1. What are the basic ideas behind version control, and why is GitHub popular for managing code?
+Version control helps you keep track of changes in your files over time. Important ideas include:
+Repositories: Where all your project files are stored.
+Commits: Snapshots of your work at certain points.
+Branches: Separate paths to work on new features without messing with the main code.
+Merging: Bringing those changes back together.
+GitHub is popular because it’s easy to use and has great tools for teamwork, like pull requests and issue tracking, making it perfect for sharing code with others.
+
+2. How do you create a new repository on GitHub, and what choices do you need to make?
+To create a new repository on GitHub:
+I.	Sign up for an account if you don’t have one.
+II.	Click “New” on your dashboard.
+III.	Give your repository a name and a short description.
+IV.	Decide if it should be public (anyone can see) or private (only invited people can see).
+V.	You can start with a README file.
+VI.	Choose a .gitignore file to avoid tracking certain files.
+VII.	Pick a license to decide how others can use your code.
+Key choices include the name, visibility, and whether to include a README.
+
+3. Why is the README file important, and what should it have?
+The README file is important because it explains your project to others. A good README should include:
+•	What the project is about.
+•	How to install it.
+•	Examples of how to use it.
+•	How others can help contribute.
+•	Licensing information.
+This helps everyone understand your project better.
+
+4. What’s the difference between public and private repositories?
+•	Public Repository:
+•	Good: Anyone can see and contribute.
+•	Bad: Your code is open to everyone, which can lead to misuse.
+•	Private Repository:
+•	Good: Only you and invited people can see it.
+•	Bad: Fewer chances for outside contributions and visibility.
+________________________________________
+5. What steps do you take to make your first commit?
+To make your first commit:
+1.	Start a Git repository with git init.
+2.	Stage your changes with git add . 
+3.	 Save your changes with git commit -m "Initial commit".
+Commits help you track how your project is changing over time.
+
+
+6. How does branching work in Git, and why is it useful for teamwork?
+Branching lets multiple people work on different features at the same time. Here’s how it works:
+1.	Create a branch with git checkout -b branch-name.
+2.	Make your changes and save them.
+3.	When ready, merge the branch back into the main code.
+This keeps everything organized and avoids conflicts.
+
+7. What do pull requests do in the GitHub workflow?
+Pull requests (PRs) help with code review and teamwork. Here’s how they work:
+1.	Create a PR after pushing your changes.
+2.	Team members review and discuss the changes.
+3.	Once everyone agrees, the PR is merged into the main code.
+PRs make sure the code is high quality before it goes live.
+
+8. What is forking a repository, and how is it different from cloning?
+Forking makes a personal copy of someone else's project in your GitHub account, so you can work on it without affecting the original. Cloning copies that project to your local computer for you to work on. Forking is great for contributing to projects you don’t own.
+
+
+9. How do issues and project boards help with managing projects?
+Issues are used to track bugs and tasks, while project boards help visualize the workflow (like sticky notes on a board). They help teams:
+•	Report bugs.
+•	Assign tasks.
+•	Track progress.
+These tools keep everyone organized and informed.
+
+
+10. What are common challenges when using GitHub, and how can you avoid them?
+Common challenges include:
+•	Confusing branching and merging.
+•	Conflicts when two people change the same thing.
+•	Not understanding Git commands.
+Best Practices:
+•	Commit often with clear messages.
+•	Use branches for new features.
+•	Keep documentation and README files organized.
+•	Review code through pull requests.
+
